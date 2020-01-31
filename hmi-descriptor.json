@@ -1,0 +1,17 @@
+{
+    "exec":"/chromium/content_shell /fs/rwdata/graphics-perf/index.html",
+    "path":"/fs/rwdata/graphics-perf/",
+    "activities":[
+        {
+            "id":"graphics_perf_main",
+            "label":"Graphics Perf",
+            "integration":"/apps/main",
+            "tags":[
+                "graphics-perf"
+            ],
+            "url_prefixes":[
+                "graphics-perf:"
+            ]
+        }
+    ]
+}
